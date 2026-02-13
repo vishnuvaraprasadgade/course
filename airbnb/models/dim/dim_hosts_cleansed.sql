@@ -1,6 +1,6 @@
 {{
     config(
-        materialized = 'view'
+        materialized = 'view',
     )
 }}
 WITH src_hosts AS (
